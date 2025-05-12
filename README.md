@@ -8,7 +8,7 @@ This is a **React Native** mobile app that uses **Firebase** for user authentica
 ## ✨ Features
 
 - ✅ User registration with email and password  
-- ✅ Store user data (username, first name, last name, email, photo Url) in Firestore  
+- ✅ Store user data in Firestore  
 - ✅ User login  
 - ✅ User profile with displayable profile image  
 - ✅ Edit profile (data and image)  
@@ -194,7 +194,7 @@ MyAndroidApp/
 | Login Screen | Register Screen | Profile Screen | Edit Profile |
 |--------------|-----------------|----------------|---------------|
 | ![Login](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/login.png) | ![Register](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/register.png) | ![Profile](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/profile.png) | ![Edit](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/edit.png) |
-| ![Profile](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/edit2.png) | ![Edit](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/profile2.png) |
+| | | ![Profile](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/profile2.png) | ![Edit](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/edit2.png) |
 
 ## 🤝 Contributing
 
