@@ -1,4 +1,4 @@
-# React Native Firebase Auth App
+# React Native and Firebase Authentication App for Android
 
 [![Platform](https://img.shields.io/badge/platform-React%20Native-blue.svg)](https://reactnative.dev/)
 [![Firebase](https://img.shields.io/badge/backend-Firebase-orange.svg)](https://firebase.google.com/)
