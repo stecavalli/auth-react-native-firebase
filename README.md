@@ -24,8 +24,8 @@ This is a **React Native** mobile app that uses **Firebase** for user authentica
   - **Firebase Storage**: Used for storing and managing user profile images.
 - **React Context**: For managing global state, particularly for user authentication.
 - **React Navigation**: For navigating between different screens in the app.
-- **Axios**: For making HTTP requests to Firebase API endpoints.
 - **React Native Image Picker**: Library for selecting images from the device's gallery or camera.
+- **Official Firebase APIs**: These are used via the @react-native-firebase/auth, @react-native-firebase/firestore, and @react-native-firebase/storage modules.
 
 ## 📦 Required Dependencies
 
