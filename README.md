@@ -196,7 +196,7 @@ MyAndroidApp/
 
 | Login Screen | Register Screen | Profile Screen | Edit Profile |
 |--------------|-----------------|----------------|---------------|
-| ![Login](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/login.png) | ![Register](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/register.png) | ![Profile](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/profile.png) | ![Edit](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/edit.png) |
+| ![Login](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/login.png) | ![Register](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/register.png) | ![Profile](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/profile.png) | ![Edit](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/edit1.png) |
 | | | ![Profile](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/profile2.png) | ![Edit](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/edit2.png) |
 
 ## 🤝 Contributing
