@@ -87,14 +87,14 @@ MyAndroidApp/
    npx @react-native-community/cli init MyAndroidApp
    cd MyAndroidApp
    ```
-   Insert the files downloaded from the repository into the project root folder, according to the scheme shown in the Project Structure.<br>
+   Insert the files downloaded from the repository into the **project root** folder, according to the scheme shown in the Project Structure.<br>
    <br>
    Open Android Studio.<br>
    Go to Settings > Android SDK > SDK Tools.<br>
-   Check NDK (Side by side) and at the bottom right Show Package Details and select the version that will be installed in C:\Users\YOUR_USER_ACCOUNT\AppData\Local\Android\Sdk\ndk\.<br>
+   Check **NDK (Side by side)** and at the bottom right Show Package Details and select the version that will be installed in C:\Users\YOUR_USER_ACCOUNT\AppData\Local\Android\Sdk\ndk\.<br>
    Click Apply to install it.<br>
-   Check Cmake.<br>
-   Edit the android/build.gradle file like this:
+   Check **Cmake**.<br>
+   Edit the **android/build.gradle** file like this:
    ```bash
    buildscript {
        ext {
@@ -127,11 +127,11 @@ MyAndroidApp/
    apply plugin: "com.facebook.react.rootproject"
    ```
    **Make sure the NDK version is the same as the version previously selected in NDK (Side by side)** <br><br>
-   Edit the android/app/build.gradle file by adding the following line at the end, after all the lines:
+   Edit the **android/app/build.gradle** file by adding the following line at the end, after all the lines:
    ```bash
    apply plugin: 'com.google.gms.google-services'
    ```
-   Make sure the beginning of the android/app/src/main/AndroidManifest.xml file contains your package name and uses-permissions as described here:
+   Make sure the beginning of the **android/app/src/main/AndroidManifest.xml** file contains your package name and uses-permissions as described here:
    ```bash
    <manifest xmlns:android="http://schemas.android.com/apk/res/android" 
        package="com.myandroidapp"> 
@@ -148,7 +148,7 @@ MyAndroidApp/
    - Enable **Authentication** (Email/Password)
    - Create a **Cloud Firestore**
    - Enable **Firebase Storage**
-   - Add the google-services.json file to the android/app/ folder. This file is created by firebase and you can find it in the project settings.
+   - Add the **google-services.json** file to the **android/app/** folder. This file is created by firebase and you can find it in the project settings.
    - Make sure your firestore rules are like this:
      ```bash
      rules_version = '2';
