@@ -74,7 +74,7 @@ const EditProfileScreen = () => {
     let uploadedPhotoUrl = photoUrl;
 
     if (photoUrl && !photoUrl.startsWith('https://')) {
-      const filename = `profileImages/${currentUser.uid}/${currentUser.uid}.jpg`; // <-- aggiornato
+      const filename = `profileImages/${currentUser.uid}/${currentUser.uid}.jpg`;
       const reference = storage().ref(filename);
 
       await reference.putFile(photoUrl);
