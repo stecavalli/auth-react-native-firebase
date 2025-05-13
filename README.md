@@ -180,14 +180,14 @@ MyAndroidApp/
      }
      ```
 4. **Android Emulator** <br>
-   In Android Studio Virtual Device Manager run an Android emulator. <br>
+   In Android Studio <i>Virtual Device Manager</i> run an Android emulator. <br>
    Run the following command to view connected devices:
    ```bash
    adb devices
    ```
    ![adb devices](https://github.com/stecavalli/auth-react-native-firebase/blob/master/assets/adbdevices.png)
    
-4. **Run the app**
+4. **Run the app in debug mode:**
    ```bash
    npx react-native run-android
    ```
