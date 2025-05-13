@@ -58,9 +58,6 @@ MyAndroidApp/
 ├── assets/
 │   └── default-avatar.png
 │
-├── auth/
-│   └── auth.ts
-│
 ├── components/
 │   └── navigators/
 │       └── RootNavigator.tsx
