@@ -22,17 +22,17 @@ export default function RootNavigator() {
       <Stack.Screen 
 	    name="Login" 
 	    component={LoginScreen}
-        options={{ headerShown: false }}	  
+            options={{ headerShown: false }}	  
 	  />
       <Stack.Screen 
 	    name="Profile" 
-		component={ProfileScreen}
-        options={{ headerShown: false }}		 
+            component={ProfileScreen}
+            options={{ headerShown: false }}		 
 	  />
 	  <Stack.Screen  
 	    name="Register" 
-		component={RegisterScreen} 
-		options={{ headerShown: false }} 
+	    component={RegisterScreen} 
+	    options={{ headerShown: false }} 
 	  />
 	  <Stack.Screen 
 	    name="EditProfile" 
