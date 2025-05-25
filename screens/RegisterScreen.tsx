@@ -4,6 +4,7 @@ import { View, Text, TextInput, Button, StyleSheet } from "react-native";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import firestore from '@react-native-firebase/firestore';
 import auth from "@react-native-firebase/auth";
+import { RootStackParamList } from '../components/navigators/RootNavigator';
 
 type Props = NativeStackScreenProps<RootStackParamList, "Register">;
 
