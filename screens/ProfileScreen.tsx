@@ -5,6 +5,7 @@ import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import auth from "@react-native-firebase/auth";
 import firestore from "@react-native-firebase/firestore";
 import { useFocusEffect } from '@react-navigation/native';
+import { RootStackParamList } from '../components/navigators/RootNavigator';
 
 type Props = NativeStackScreenProps<RootStackParamList, "Profile">;
 
@@ -76,20 +77,38 @@ const ProfileScreen = ({ navigation }: Props) => {
       <Text style={styles.profileText}>Cognome: {userData.cognome}</Text>
 
       {/* Pulsante per modificare il profilo */}
+	  <View style={styles.button}>
       <Button title="Modifica Profilo" onPress={() => navigation.navigate("EditProfile")} />
-
+	  </View>
+	  
+      {/* Pulsante per il logout */}
+	  <View style={styles.button}>
+      <Button
+        title="Logout"
+        onPress={async () => {
+          try {
+            await auth().signOut();
+            navigation.replace("Login");
+          } catch (error) {
+            console.error("Errore durante il logout:", error);
+            Alert.alert("Errore", "Si è verificato un errore durante il logout.");
+          }
+        }}
+      />
+	  </View>
       {error && <Text style={styles.error}>{error}</Text>}
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, alignItems: "center", padding: 20, backgroundColor: "#fff" },
+  container: { flex: 1, alignItems: "center", padding: 20, backgroundColor: "#fff"},
   centered: { flex: 1, justifyContent: "center", alignItems: "center" },
   profileImage: { width: 150, height: 150, borderRadius: 75, backgroundColor: "#ccc" },
-  imageContainer: { marginBottom: 20 },
+  imageContainer: { marginBottom: 20, marginTop: 50 },
   profileText: { fontSize: 18, marginVertical: 10 },
   error: { color: "red", marginTop: 10 },
+  button: { marginTop: 20 },
 });
 
 export default ProfileScreen;
